@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:layout_marginBottom="8dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="0dp">
+    <LinearLayout
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:weightSum="10"
+        >
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:id="@+id/txtnamefavorite"
+            android:textColor="@color/colorTextName"
+            android:shadowColor="@color/bgre"
+            android:text="Name"
+            android:textSize="20dp"
+            android:shadowDx="-2"
+            android:shadowDy="-2"
+            android:shadowRadius="2"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/deletefavorite"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_delete_dow"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

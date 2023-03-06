@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:paddingEnd="25dp"
+        android:paddingStart="25dp"
+        android:gravity="center"
+        android:background="@drawable/backgroud_form"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/edtEmailforgot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:drawablePadding="9dp"
+            android:background="@drawable/backgroud_edittext"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            android:hint="@string/hintemail"
+            android:inputType="textEmailAddress"
+            android:padding="7dp" />
+        <EditText
+            android:id="@+id/edtcoderesetforgot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:drawablePadding="9dp"
+            android:background="@drawable/backgroud_edittext"
+            android:drawableStart="@drawable/ic_soucode"
+            android:hint="@string/mabm"
+            android:inputType="text"
+            android:padding="7dp"
+            android:layout_marginBottom="15dp"/>
+        <Button
+            android:id="@+id/btnsendmkforgot"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/laymk"
+            android:textAllCaps="false"
+            android:textColor="@color/text_while"
+            android:textSize="15dp"
+            android:layout_marginBottom="50dp"
+            />
+    </LinearLayout>
+</LinearLayout>
